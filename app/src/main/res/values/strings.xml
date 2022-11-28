@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cat viewer</string>
+    <string name="dummy_content">ПРИВЕТ!</string>
+    <string name="insertion">Вставить</string>
+    <string name="back">Назад</string>
+    <string name="cat">cat</string>
+    <string name="add">Добавить в коллекцию</string>
+    <string name="refresh">Обновить</string>
+</resources>

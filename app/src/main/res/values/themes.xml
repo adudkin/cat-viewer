@@ -1,0 +1,10 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.SampleNavigation" parent="Theme.MaterialComponents.Light.NoActionBar">
+     </style>
+
+    <style name="ThemeOverlay.SampleNavigation.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+</resources>

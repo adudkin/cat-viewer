@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.catviewer.insertion.InsertionFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add_cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:background="@drawable/ic_baseline_emoji_emotions_24"
+        android:contentDescription="@string/add"
+        android:elevation="2dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/refresh_cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/ic_baseline_autorenew_24"
+        android:contentDescription="@string/refresh"
+        android:elevation="2dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        android:contentDescription="@string/back"
+        android:elevation="2dp" />
+
+</FrameLayout>
